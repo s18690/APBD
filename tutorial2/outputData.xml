@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<university xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <student indexNumber="459">
+    <fname>Paweł</fname>
+    <lname>Nowak1</lname>
+    <birthdate>2000-02-12 00:00:00.000</birthdate>
+    <email>nowak@pjwstk.edu.pl</email>
+    <morhersName>Alina</morhersName>
+    <fathersName>Adam</fathersName>
+    <studies>
+      <name>Informatyka dzienne</name>
+      <mode>Dzienne</mode>
+    </studies>
+  </student>
+  <student indexNumber="1123">
+    <fname>A</fname>
+    <lname>B</lname>
+    <birthdate>2000-12-01 00:00:00.000</birthdate>
+    <email>ab@pjwstk.edu.pl</email>
+    <morhersName>C</morhersName>
+    <fathersName>D</fathersName>
+    <studies>
+      <name>Informatyka zaoczne</name>
+      <mode>Zaoczne</mode>
+    </studies>
+  </student>
+</university><?xml version="1.0"?>
+<activeStudies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <studies name="Informatyka dzienne" numberOfStudents="1" />
+  <studies name="Informatyka zaoczne" numberOfStudents="1" />
+</activeStudies>
